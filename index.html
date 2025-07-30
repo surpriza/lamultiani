@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Mulți Ani!</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Geneva, Verdana, sans-serif;
+      color: maroon;
+      background: url('https://i.pinimg.com/736x/a9/c0/43/a9c043663831acc981456cc008ce7c1e.jpg') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    main {
+      width: 100%;
+      max-width: 800px;
+      padding: 20px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.75);
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    .title-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #f06292;
+      font-family: 'Brush Script MT', cursive;
+      font-size: clamp(2rem, 9vw, 5rem);
+      text-shadow: 2px 2px 4px black;
+      margin: 0;
+    }
+
+    .heart {
+      color: #ad1457;
+      font-size: clamp(2.5rem, 10vw, 6rem);
+      animation: pulse 1.2s infinite;
+      line-height: 1;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: justify;
+      padding: 15px;
+      font-family: 'Times New Roman', serif;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 10px;
+      margin-bottom: 25px;
+    }
+
+    nav ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    nav li a {
+      display: inline-block;
+      text-decoration: none;
+      color: #880e4f;
+      background-color: #fce4ec;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.2s;
+      font-size: 1rem;
+    }
+
+    nav li a:hover {
+      background-color: #f8bbd0;
+    }
+
+    nav li a:active {
+      transform: scale(0.97);
+      background-color: #f48fb1;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      p {
+        font-size: 1rem;
+        text-align: left;
+      }
+
+      nav li a {
+        width: 100%;
+        text-align: center;
+      }
+
+      nav ol {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      p {
+        font-size: 0.95rem;
+        padding: 10px;
+      }
+
+      .title-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="title-container">
+      <h1>LA MULȚI ANI!</h1>
+      <div class="heart">♥</div>
+    </div>
+
+    <p>
+      Ziua de azi nu e doar o zi obișnuită. E o zi în care meritați să fiți sărbătorită cu tot ce e mai bun, pentru tot ceea ce sunteți.<br><br>
+
+      Sunteți genul de om care lasă lumină acolo unde ajunge. Care aduce claritate în haos, care îmblânzește zilele grele prin prezență, prin echilibru, prin inteligență. Ați fost și sunteți o sursă de inspirație pentru mulți — nu doar prin ce predați, ci prin felul în care o faceți. Cu pasiune, cu sinceritate. Sunteți o forță a naturii.<br><br>
+
+      Vă admir pentru felul în care munciți, pentru felul în care țineți totul în ordine. Pentru calmul pe care îl oferiți, pentru umorul cu care înmuiați tăceri apăsătoare. Pentru că reușiți, de atâtea ori, să purtați mai mult decât vi se cuvine — și totuși să nu renunțați.<br><br>
+
+      Nu pot decât să vă doresc liniște în suflet, oameni buni alături și clipe care să vă întoarcă, măcar puțin, din binele pe care îl oferiți celor din jur.<br><br>
+
+      Meritați să fiți iubită, ascultată, ajutată. Meritați momente simple, dar senine. Și meritați recunoștință — nu doar azi, ci în fiecare zi, iar pentru asta v-am scris un mesaj pentru fiecare zi care vă influențează starea emoțională, în bine sau în rău. Știu că veți spune că sunt niște simple stări, care vor trece la un moment dat, dar până atunci vreau să vă simțiți apreciată necondiționat. Puteți oricând să le citiți dacă aveți nevoie de susținere.<br><br>
+
+      La mulți ani, cu drag.
+    </p>
+
+    <nav>
+      <ol>
+        <li><a href="Zile Triste.html">Zile triste</a></li>
+        <li><a href="Zile Fericite.html">Zile fericite</a></li>
+        <li><a href="Zile Stresante.html">Zile stresante</a></li>
+        <li><a href="Zile Plictisitoare.html">Zile plictisitoare</a></li>
+      </ol>
+    </nav>
+  </main>
+</body>
+</html>
